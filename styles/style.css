@@ -40,5 +40,69 @@ body{
 /*------------------------
     main Section Styles
 -------------------------*/
+.main-container div h1{
+    text-align: center;
+    margin-top: 200px;
+}
+.articls{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.products{
+
+}
+.rating{
+
+}
+.checked{
+    color: orange;
+}
+
+
+
+
+
+
+/*------------------------
+    Footer Section Styles
+-------------------------*/
+.footer-haeding h3{
+    text-align: center; 
+    color:rgb(194, 209, 238) ;
+    padding-top: 4%; 
+
+}
+.footer-haeding p{
+    text-align: center;
+    color:rgb(194, 209, 238) ;
+    padding-bottom: 7%;
+}
+.footer-haeding{
+    background-color: rgb(24, 24, 58);
+}
+.icons{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.fa-facebook .fa-youtube .fa-twitter{
+    color:darkgray;
+}
+a{
+    color: floralwhite;
+    height: 30px;
+    width: 30px;
+    background-color:rgb(29, 48, 71);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+}
+a:hover{
+    color:lightcoral
+}
 
 
