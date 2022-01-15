@@ -2,6 +2,9 @@ body{
     font-family: 'Noto Serif', serif;
     margin: 5;
 }
+/*------------------------
+    Header section styles
+-------------------------*/
 .top{
     
     width: 100%;
@@ -10,11 +13,12 @@ body{
 .main-article{
     margin: 5%;
 }
-.big-heading{
+.top .main-article h1{
     font-size: 43px;
 }
-p{
+.top .main-article p{
     padding-bottom: 25px;
+    padding-right: 20px;
 }
 .button-link{
     text-decoration: none;
@@ -32,4 +36,9 @@ p{
     margin-left: 15%;
     margin-right: 9%;
 }
+
+/*------------------------
+    main Section Styles
+-------------------------*/
+
 
