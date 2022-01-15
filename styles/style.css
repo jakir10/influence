@@ -1,0 +1,35 @@
+body{
+    font-family: 'Noto Serif', serif;
+    margin: 5;
+}
+.top{
+    
+    width: 100%;
+    display: flex;
+}
+.main-article{
+    margin: 5%;
+}
+.big-heading{
+    font-size: 43px;
+}
+p{
+    padding-bottom: 25px;
+}
+.button-link{
+    text-decoration: none;
+    background-color:palevioletred ;
+    color:white;
+    font-weight: 700;
+    border-radius: 35px;
+    padding: 10px 15px;
+}
+.fa-angle-right{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.aside-img{
+    margin-left: 15%;
+    margin-right: 9%;
+}
+
