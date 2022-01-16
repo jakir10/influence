@@ -28,6 +28,10 @@ body{
     border-radius: 35px;
     padding: 10px 15px;
 }
+.button-link:hover{
+    background-color: purple;
+    color: white;
+}
 .fa-angle-right{
     padding-left: 10px;
     padding-right: 10px;
@@ -36,62 +40,183 @@ body{
     margin-left: 15%;
     margin-right: 9%;
 }
+.aside-img:hover{
+    transform: scale(1.3);
+}
+
+/* -----------------------------
+    Media queries styles start
+------------------------------*/
+@media only screen and (max-width:688px){
+    .top {
+        flex-direction: column;
+    }
+}
+/* -----------------------------
+    Media queries styles end
+------------------------------*/
+
 
 /*------------------------
     main Section Styles
 -------------------------*/
-.main-container div h1{
-    text-align: center;
-    margin-top: 200px;
+
+main{
+    display: flex;
+    justify-content: center;
 }
-.articls{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 5%;
-    margin-right: 5%;
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+.container .row{
+    width: 85%;
+    margin: auto;
+}
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content-section .card h3{
+    padding-left: 10px;
+}
+.content-section .card h4{
+    padding-left: 10px;
+}
+.content-section .card p{
+    padding-left: 10px;
+    margin-top: 0%;
+}
+.content-section .card{
+    flex: 1;
+    margin: 40px 20px;
+    box-shadow: 5px 5px 40px gray;
+}
+.content-section .card img{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.btn{
+    text-align: right;
+    margin-right: 10%;
+}
+.btn a{
+    text-decoration: none;
 }
 
-.products{
-
+.fa-arrow-right{
+    color: palevioletred;
+    margin-top: 15px;
 }
+
 .rating{
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+    padding: 3%;
 
 }
 .checked{
     color: orange;
+    align-items: center;
 }
 
+/* -----------------------------
+    Media queries styles start
+------------------------------*/
+@media only screen and (max-width:688px){
+    .content-section {
+        flex-direction: column;
+    }
+}
+
+@media only screen  and (max-width:992px){
+    .content-section{
+       flex-direction:row ;
+       flex-wrap: wrap;
+       width: 60%;
+    }
+}
+/* -----------------------------
+    Media queries styles End
+------------------------------*/
 
 
 
+/*-----------------------
+Own Section styles
+------------------------*/
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid palevioletred;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
 
+  
+/* ----------------------------------------
+   Own section Media queries styles start
+------------------------------------------*/
+  @media only screen and (max-width: 700px) {
+    .responsive{
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+/* ----------------------------------------
+   Own section Media queries styles End
+------------------------------------------*/
 
 /*------------------------
     Footer Section Styles
 -------------------------*/
-.footer-haeding h3{
-    text-align: center; 
-    color:rgb(194, 209, 238) ;
-    padding-top: 4%; 
-
-}
-.footer-haeding p{
+footer{
+    justify-content: center;
     text-align: center;
-    color:rgb(194, 209, 238) ;
-    padding-bottom: 7%;
-}
-.footer-haeding{
+    padding: 3px;
+    width: 1200;
+    height: 220px;
     background-color: rgb(24, 24, 58);
+    color: white;
+
 }
 .icons{
     justify-content: center;
     align-items: center;
     display: flex;
 }
-.fa-facebook .fa-youtube .fa-twitter{
-    color:darkgray;
-}
-a{
+a .foot{
     color: floralwhite;
     height: 30px;
     width: 30px;
@@ -101,8 +226,12 @@ a{
     line-height: 30px;
     margin: 10px;
 }
-a:hover{
+a:hover .foot{
     color:lightcoral
 }
+
+
+
+
 
 
